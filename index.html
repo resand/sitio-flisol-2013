@@ -1,0 +1,498 @@
+<!DOCTYPE html>
+
+    
+<html lang="es">
+    
+    <head>
+        
+        <meta charset="UTF-8" />
+        <link rel="shortcut icon" href="img/favicon.ico">
+        <link rel="stylesheet" href="css/estilo.css" />
+        <link href="css/blitzer/jquery-ui-1.10.1.custom.css" rel="stylesheet">        
+        <link rel="stylesheet" href="css/estilo_count.css" />
+        <link href='http://fonts.googleapis.com/css?family=Noto+Sans' rel='stylesheet' type='text/css'>
+        <script src="js/jquery-1.9.1.js"></script>
+        <script src="js/funciones.js"></script>
+        <script src="js/jquery.countdown.js"></script>
+    	<script src="js/jquery-ui-1.10.1.custom.js"></script>
+        <script src="funciones.js"></script>
+        <script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=false"></script>
+           
+
+        <title>Festival Latinoamericano de Instalación de Software Libre</title> 
+        
+    </head>
+    
+    <body onload="contar_asistentes();contar_asistentes2();contar_asistentes3();">
+        
+        <header>
+             <div id="aviso_firefox">
+                
+                <p>Se recomienda ver en <a href="http://www.mozilla.org/es-MX/firefox/fx/?WT.mc_id=affiliates_banner&WT.mc_ev=click#desktop" target="_blank">Mozilla Firefox </a><img src="img/firefox-logo24.png"></p>
+                <p>Sitio alojado en <a href="http://hostingbroad.com/" target="_blank">Hostingbroad.</a></p>
+                
+             </div>
+
+        
+        </header>
+       
+        <nav id="nav">
+            <ul>
+                <a href="#"><li id="home" class="select">Inicio</li></a>
+                <a href="#nav"><li id="home" class="select">FLISOL Campeche 2013</li></a>
+                <a href="#nav"><li id="flisol" class="select">¿Qué es el FLISOL?</li></a>
+                <a href="#nav"><li id="installfest" class="select">InstallFest</li></a>
+                <a href="#nav"><li id="charlas" class="select">Charlas</li></a>
+                <a href="#nav"><li id="talleres" class="select">Talleres</li></a>
+                <a href="#nav"><li id="programa" class="select">Programa</li></a>
+               
+               
+                
+
+            </ul>
+        </nav>
+        
+        
+        
+        <div id="container">
+            
+             <div id="social">
+                <span class="social">
+                    <a href="http://www.facebook.com/linuxcampeche" target="_blank"><img src="img/facebook.png" width=60 height=60></a>
+                </span><br>
+                <span class="social">
+                    <a href="https://twitter.com/linuxcampeche" target="_blank"><img src="img/twitter.png" width=60 height=60></a>
+                </span>
+                </div>
+                
+                <div id="dhome" class="otherArticle">
+                    
+                    <h1 style="text-shadow: 2px 2px 3px #595959;">FLISOL CAMPECHE 2013</h1>
+                    <h3><b>CUANDO:</b> Sábado 25 de Mayo del 2013, 08:00 - 15:00 horas</h3>
+                    <h3><b>D&Oacute;NDE:</b> Instituto Tecnológico y de Estudios Superiores René Descartes</h3>
+                    <br>
+                    <p>FLISOL es una serie de jornadas de difusión en donde todo se centra en el Software Libre.  En muchos
+                    estados de México se realiza una FLISOL entre estudiantes de universidades, entusiastas y curiosos que
+                    tratan de poner su grano de arena o simplemente vivir la grandiosa experiencia de ser parte de algo magno
+                    como es una FLISOL.</p>
+                    <br>
+                    <p>En esta edición la FLISOL se realizara en el Instituto Tecnológico y de Estudios Superiores René Descartes
+                    a partir de las 08:00 de la mañana, no faltes a las charlas, conferencias y talleres que se impartirán.</p>
+                    <br>
+                    <p style="color:#AF000E;font-variant: bold;">Si estás interesado en participar como patrocinador, tienes alguna duda o te interesaría apoyar de
+                    alguna otra forma envía un mail a <strong style="color: #000000;">linuxcampeche@gmail.com</strong> y nosotros nos pondremos en contacto contigo
+                    lo antes posible. </p>
+                    <br>
+                                               
+                    <center><iframe width="600" height="340"src="http://www.youtube.com/embed/q3M-j4pvEbY" frameborder="0" allowfullscreen></iframe></center>
+                    <br>
+                    
+                    <div id="tiempo_restante">
+                    <br>
+                        <h2 style="margin-left: 7%;">TIEMPO RESTANTE PARA EL EVENTO</h2>
+                        <span id="defaultCountdown" class="countdown"></span> 
+                    </div><br><br><br><br><br><br><br><br><br><br>
+                    
+                    
+                    <div id="legend_localizacion"><h3>LOCALIZACI&Oacute;N DEL EVENTO</h3></div>
+                    <div id="map" style="width:100%;height:500px;"></div>
+                    <span class="leyenda_oblig">Av. Gobernadores #135 A, Col. Santa Lucía, San Fco. de Campeche, Campeche, México. </span>
+                    <br>
+                    <br>
+                    <br>
+                        <h3 style="font-variant: bold;">Agradecemos a nuestros patrocinadores y colaboradores por todo
+                        el apoyo brindado a la realización de este importante evento que fomenta la cultura y genera una filosofía
+                        diferente con respecto a la utilización de las TICS.</h3>
+                    <br>
+                        <div style="text-align: center;">
+                        <a href="http://www.itesrenedescartes.edu.mx/" target="_blank"><img src="img/logo_ites.png" width=30% height=50% style="float: left; margin-left: 12%;"></a>
+                        <br>
+                        <a href="http://hostingbroad.com/" target="_blank"><img src="img/hostinbroad.png" width=50% height=60% style="float: left;"></a>
+                    
+                        </div>
+                        
+                        
+                        
+                        
+                    
+                
+                </div>
+                
+                <div id="dflisol" class="otherArticle">
+                    <h1 style="text-shadow: 2px 2px 3px #595959;">¿Qué es FLISOL?</h1>
+                    <br>
+                    <p>El Festival Latinoamericano de Instalación de Software Libre (FLISOL) es actualmente el evento de
+                    instalación y difusión de Software Libre más grande en el mundo. Se realiza desde el año 2005 en diversos
+                    países de Latinoamérica, habiéndose extendido a otras regiones como España y Estados Unidos.</p>
+                    <br>
+                    <p> El principal objetivo de FLISOL es promover el uso del software libre, dando a conocer al público en general
+                    su filosofía, alcances, avances y desarrollo.</p>
+                    <br>
+                    <p>Cada año, en una fecha simultánea por acuerdo internacional, las diversas comunidades locales de software
+                    libre (en cada país y ciudad participante) organizan eventos en los que se instala, de manera gratuita y
+                    totalmente legal, programas de software libre en las computadoras que llevan los asistentes.</p>
+                    <br>
+                    <p>Además, en forma paralela, se ofrecen charlas, ponencias y talleres, sobre temáticas locales, nacionales y
+                    latinoamericanas en torno al Software Libre, en toda su gama de expresiones: artística, académica, empresarial
+                    y social. </p>
+                    <br>
+                                           
+                    <h3>Más información:</h3>
+                    <p> Web internacional de FLISOL</p>
+                    <a href="http://www.flisol.info/" target="_blank">http://www.flisol.info/ </a>
+                    <br><br><br>
+                    
+                </div>
+                
+                
+                  <div id="dinstallfest" class="otherArticle">   
+                    <h1 style="text-shadow: 2px 2px 3px #595959;">InstallFest</h1>
+                    <br>
+                        <h3> ¿A quienes está dirigido el Install Fest?</h3>
+                    <br>
+                        <p>Aunque la actividad principal del Install Fest es ayudar a la gente a instalar Linux y aplicaciones Open
+                        Source, este evento no es solo para aquellos que quieran instalarlo.</p>
+                    <br>
+                        <ul>
+                            <li>Ya sabes qué es Linux, lo quieres instalar pero te da miedo equivocarte en algo.</li>
+                            <li>Ya instalaste Linux, pero tienes algún problema, o una duda.</li>
+                            <li>Usas Linux y quieres conocer a otras personas que también lo usan.</li>
+                            <li>Quieres conocer a cerca de las aplicaciones Open Source.</li>
+                            <li>Te gustaría utilizar software libre para tus tareas cotidianas.</li>
+                        </ul>
+                    <br>
+                        <h3> ¿Qué necesitas para asistir?</h3>
+                    <br>
+                        <ul>
+                            <li>Llevar tu computadora.</li>
+                            <li>Desfragmentar tu disco (si tienes Windows).</li>
+                            <li>Hacer un respaldo de tus datos (sólo por si acaso).</li>
+                        </ul>
+                    <br>
+                        <h3>¿Qué especificaciones debe tener tu computadora?</h3>
+                    <br>
+                        <p>Se puede instalar en cualquier computadora, sin embargo recomendamos estas mínimas especificaciones:</p>
+                    <br>
+                        <ul>
+                            <li>Procesador: Pentium 4</li>
+                            <li>Ram: 512 mb</li>
+                            <li>Espacio en Disco: 4 Gb</li>
+                        </ul>
+                    <br>
+                        <h3>¿Qué riesgos corres?</h3>
+                    <br>
+                        <p>Si vas a instalar un sistema operativo lo peor que puede pasar, es que por algún error se pierda la
+                        información de tu computadora, sí ha sucedido pero es verdaderamente muy raro, de todos modos más vale
+                        prevenir que lamentar, así que mejor respalda y si vas a instalar aplicaciones no corres ningún riesgo,
+                        salvo el de ocupar mas espacio en tu disco duro.</p>
+                    <br>
+                        <h3>¿Qué distribuciones y aplicaciones te instalaremos?</h3>
+                    <br>
+                         <p>Tendremos varias distribuciones y aplicaciones, entre ellas, Ubuntu, Linux Mint.</p>
+                    <br>
+                        <h3>¿Quieres participar como voluntario en el Install Fest?</h3>
+                    <br>
+                        <p>Comunícate con nosotros a <strong style="color: #000000;">linuxcampeche@gmail.com</strong>, recuerda
+                        que nuestra filosofía es compartir conocimiento y ayudar a que crezca la comunidad.</p>
+                    <br>
+                    <br>
+                    
+                </div>
+                
+                <div id="dcharlas" class="otherArticle">
+                    <h1 style="text-shadow: 2px 2px 3px #595959;">Charlas</h1><br><br>
+                    
+                    
+                    <div class="div_charlas">
+                        <!--<img class="img_perfil" src="img/gravatar.jpg">-->
+                        <span class="title_info">Software Libre</span>
+                        <span class="ponente_info">Ing. Melitón Guzmán﻿</span>
+                        <span class="desc_ponencia">Charla sobre la Cultura y Filosofa del Software Libre y su aplicación en la vida
+                        cotidiana y empresarial. Beneficios y ventajas de usar Software Libre.<br></span>
+                    </div>
+                    
+                    <div class="div_charlas">
+                        <!--<img class="img_perfil" src="img/gravatar.jpg">-->
+                        <span class="title_info">Arduino</span>
+                        <span class="ponente_info">Ing. Mario Ayil﻿</span>
+                        <span class="desc_ponencia">Arduino es una plataforma de electrónica abierta para la creación de prototipos
+                        basada en software y hardware flexibles y fáciles de usar. Se creó para artistas, diseñadores, aficionados y
+                        cualquiera interesado en crear entornos u objetos interactivos.</span>
+                    </div>
+                    
+                    <div class="div_charlas">
+                        <!--<img class="img_perfil" src="img/gravatar.jpg">-->
+                        <span class="title_info">Technical Debt</span>
+                        <span class="ponente_info">Ing. Jorge Chuc</span>
+                        <span class="desc_ponencia">Las presiones por cumplir el plazo de entrega de un producto de software
+                        ocasionan que el desarrollador escriba código, de manera intencional o accidental, que no sea el apropiado
+                        en términos de calidad o desempeño.</span>
+                    </div>
+                    
+                    <div class="div_charlas">
+                        <!--<img class="img_perfil" src="img/gravatar.jpg">-->
+                        <span class="title_info">GitHub</span>
+                        <span class="ponente_info">Ing. Miguel Jimenez</span>
+                        <span class="desc_ponencia">Git es un software de control de versiones diseñado por Linus Torvalds,
+                        pensando en la eficiencia y la confiabilidad del mantenimiento de versiones de aplicaciones cuando estas
+                        tienen un gran número de archivos de código fuente.</span>
+                    </div>
+                    
+                    <div class="div_charlas">
+                        <!--<img class="img_perfil" src="img/gravatar.jpg">-->
+                        <span class="title_info">Seguridad Física</span>
+                        <span class="ponente_info">Ing. Juan Tinajero</span>
+                        <span class="desc_ponencia">Seguridad Física consiste en la "aplicación de barreras físicas y procedimientos
+                        de control, como medidas de prevención y contramedidas ante amenazas a los recursos e información confidencial".</span>
+                    </div>
+                    
+                    
+                    
+                    
+                   
+                </div>
+                
+                <div id="dtalleres"  class="otherArticle">
+                    <h1 style="text-shadow: 2px 2px 3px #595959;">Talleres</h1><br><br>
+                    
+                    
+                    <div class="div_talleres">
+                        <div id="aviso_cupo">
+                            <p>TALLERES</p>
+                            <p>CUPO LIMITADO</p>
+                            <p>20 Personas</p>
+                        </div>
+                        <!--<img class="img_perfil" src="img/gravatar.jpg">-->
+                        <span class="title_info">GIMP</span>
+                        <span class="ponente_info">Ing. Freddy Gabriel ﻿</span>
+                        <span class="desc_ponencia">GIMP (GNU Image Manipulation Program) es un programa de edición de imágenes
+                        digitales en forma de mapa de bits, tanto dibujos como fotografías. Es un programa libre y gratuito.
+                        Este taller esta enfocado a la optimización de imagenes para sitios web.<br></span>
+                        
+                        <div id="partc_reg" style="color: white;">
+                            
+                                                    
+                        </div><br>
+                        <button class="button green registros" id="registro1" onclick=contar_asistentes();> Inscribirme </button>
+                        
+                        <span id="cupo_agotado1"></span>
+                        
+                        
+                    <div id="div_registro_gimp"><br>
+                        
+                            <label>Nombre Completo (Nombre y Apellidos)</label>
+                                <input type="text" id="txt_nombre" onkeyup="this.value=this.value.toUpperCase();">
+                            <label>Correo electrónico</label>
+                                <input type="text" id="txt_email" placeholder="Inserta una Dirección Válida para Contactarte">
+                            <label>No. de Teléfono de Contacto</label>
+                                <input type="text" id="txt_tel">
+                            <label>Fecha de Nacimiento</label>
+                                <input type="text" id="txt_fecha">
+                        <input type="hidden" id="txt_taller" value="1">
+                            <br>
+                            <span class="aviso_privacidad">Los datos solicitados son para registrar su asistencia, enviarle información y
+                            ponernos en contacto con usted sobre asuntos del evento. Toda la Información solicitada es confidencial.</span><br>
+                         
+                    
+                            <span id="span_alerta_insert">Campos vacios, llenelos para continuar</span><br><br>
+                            <button class="button orange" id="btn_cancelar1"> Cancelar </button>
+                            <button type="submit" class="button red" id="btn_registro1" onclick=inserta_gimp();> Inscribirme </button><br><br>
+                            
+                    </div>
+                        
+                    </div>
+                    
+                    <div class="div_talleres">
+                        <!--<img class="img_perfil" src="img/gravatar.jpg">-->
+                        <span class="title_info">Django</span>
+                        <span class="ponente_info">Ing. Alex Dzul﻿</span>
+                        <span class="desc_ponencia">Django es un framework de desarrollo web de código abierto, escrito en Python,
+                        la meta fundamental de Django es facilitar la creación de sitios web complejos.</span>
+                        <strong style="color: #FFFFFF;">REQUISITOS:</strong> <span class="requisito">Conocimiento básico del lenguaje Python.</span>
+                        <br><br>
+                        
+                         <div id="partc_reg2" style="color: white;">
+                            
+                                                    
+                        </div><br>
+                        <button class="button green registros" id="registro2" onclick=contar_asistentes2();> Inscribirme </button>
+                        
+                        <span id="cupo_agotado2"></span>
+                        
+                        <div id="div_registro_django"><br>
+                        
+                            <label>Nombre Completo (Nombre y Apellidos)</label>
+                                <input type="text" id="txt_nombre2" onkeyup="this.value=this.value.toUpperCase();">
+                            <label>Correo electrónico</label>
+                                <input type="text" id="txt_email2" placeholder="Inserta una Dirección Válida para Contactarte">
+                            <label>No. de Teléfono de Contacto</label>
+                                <input type="text" id="txt_tel2">
+                            <label>Fecha de Nacimiento</label>
+                                <input type="text" id="txt_fecha2">
+                        <input type="hidden" id="txt_taller2" value="2">
+                            <br>
+                            <span class="aviso_privacidad2">Los datos solicitados son para registrar su asistencia, enviarle información y
+                            ponernos en contacto con usted sobre asuntos del evento. Toda la Información solicitada es confidencial.</span><br>
+                         
+                    
+                            <span id="span_alerta_insert2">Campos vacios, llenelos para continuar</span><br><br>
+                            <button class="button orange" id="btn_cancelar2"> Cancelar </button>
+                            <button class="button red" id="btn_registro2" onclick=inserta_django();> Inscribirme </button><br><br>
+                            
+                    </div>
+                        
+                    </div>
+                    
+                    
+                    
+                    <div class="div_talleres">
+                        <!--<img class="img_perfil" src="img/gravatar.jpg">-->
+                        <span class="title_info">Android</span>
+                        <span class="ponente_info">Ing. Marco Maldonado</span>
+                        <span class="desc_ponencia">Android es un sistema operativo basado en Linux, diseñado principalmente para
+                        móviles con pantalla táctil como teléfonos inteligentes o tabletas. En este taller aprenderás como desarrollar
+                        una aplicación básica.</span>
+                        <strong style="color: #FFFFFF;">REQUISITOS:</strong> <span class="requisito">Conocimiento básico del lenguaje Java.</span>
+                        <br><br>
+                        
+                        <div id="partc_reg3" style="color: white;">
+                            
+                                                    
+                        </div><br>
+                        <button class="button green registros" id="registro3" onclick=contar_asistentes3();> Inscribirme </button>
+                        
+                        <span id="cupo_agotado3"></span>
+                        
+                        <div id="div_registro_android"><br>
+                        
+                            <label>Nombre Completo (Nombre y Apellidos)</label>
+                                <input type="text" id="txt_nombre3" onkeyup="this.value=this.value.toUpperCase();">
+                            <label>Correo electrónico</label>
+                                <input type="text" id="txt_email3" placeholder="Inserta una Dirección Válida para Contactarte">
+                            <label>No. de Teléfono de Contacto</label>
+                                <input type="text" id="txt_tel3">
+                            <label>Fecha de Nacimiento</label>
+                                <input type="text" id="txt_fecha3">
+                        <input type="hidden" id="txt_taller3" value="3">
+                            <br>
+                            <span class="aviso_privacidad3">Los datos solicitados son para registrar su asistencia, enviarle información y
+                            ponernos en contacto con usted sobre asuntos del evento. Toda la Información solicitada es confidencial.</span><br>
+                         
+                    
+                            <span id="span_alerta_insert3">Campos vacios, llenelos para continuar</span><br><br>
+                            <button class="button orange" id="btn_cancelar3"> Cancelar </button>
+                            <button class="button red" id="btn_registro3" onclick=inserta_android();> Inscribirme </button><br><br>
+                            
+                    </div>
+                        
+                    </div>
+                   
+                </div>
+                
+        </div>
+              
+              
+               <div id="dprograma" class="otherArticle">
+                    <div style="width:60%;border-bottom:1px solid #777;font-size:26px;">
+                    <span class="pleca_vertical" style="background:#1C9099;"></span>Charlas
+                    </div><br>
+                    
+                <table style="width:100%;border:0" border="0" class="tbl_agenda">
+                    <tbody>
+                        <tr>
+                            <td style="width:20%;"><span class="pleca_vertical" style="background:#cccccc;"></span> &nbsp;&nbsp;&nbsp; 08:00 - 09:00 </td><td> Recepción de Asistentes </td>
+                        </tr>
+                        <tr>
+                            <td><span class="pleca_vertical" style="background:#DD1C77;"></span> &nbsp;&nbsp;&nbsp; 09:00 - 09:50 </td><td>Software Libre</td>
+                        </tr>
+                        <tr>
+                            <td><span class="pleca_vertical" style="background:#31A354;"></span> &nbsp;&nbsp;&nbsp; 10:00 - 11:50 </td><td>Git y Raspberry Pi</td>
+                        </tr>
+                        <tr>
+                            <td><span class="pleca_vertical" style="background:#8856A7;"></span> &nbsp;&nbsp;&nbsp; 12:00 - 12:50 </td><td>Technical Debt</td>
+                        </tr>
+                        <tr>
+                            <td><span class="pleca_vertical" style="background:#E34A33;"></span> &nbsp;&nbsp;&nbsp; 13:00 - 13:50 </td><td>Seguridad Física</td>
+                        </tr>
+                        <tr>
+                            <td><span class="pleca_vertical" style="background:#C69100;"></span> &nbsp;&nbsp;&nbsp; 14:00 - 15:50 </td><td>Arduino</td>
+                        </tr>
+                    </tbody>
+                </table>
+                <br>
+                <br>
+                
+                 <div style="width:60%;border-bottom:1px solid #777;font-size:26px;">
+                    <span class="pleca_vertical" style="background:#FFCE0A;"></span>Talleres
+                    </div><br>
+                <table style="width:100%;border:0" border="0" class="tbl_agenda">
+                    <tbody>
+                        <tr>
+                            <td style="width:20%;"><span class="pleca_vertical" style="background:#DD1C77;"></span> &nbsp;&nbsp;&nbsp; 09:00 - 10:20 </td><td> Gimp</td>
+                        </tr>
+                        <tr>
+                            <td><span class="pleca_vertical" style="background:#31A354;"></span> &nbsp;&nbsp;&nbsp; 10:30 - 13:00 </td><td> Django</td>
+                        </tr>
+                        <tr>
+                            <td><span class="pleca_vertical" style="background:#8856A7;"></span> &nbsp;&nbsp;&nbsp; 13:10 - 15:40 </td><td> Android</td>
+                        </tr>
+                       
+                    </tbody>
+                </table>
+                </div>
+                
+                
+                
+                
+               
+                
+            
+            
+           <!-- <div id="content-right">
+                
+                
+                    <p class="titulo_sidebar">Organiza</p>
+                        <a href="http://www.tequilavalley.com/" target="_blank"><img src="img/TQV-300x238.jpg" width="250px" height="200px" border="0"><a/>
+                        <a href="http://linuxcampeche.mx/blog/" target="_blank"><img src="img/linuxcamp.jpg" width="200px" height="200px" border="0"></a>
+                <br>
+                <div>
+                    <p class="titulo_sidebar">Sitio alojado en</p>
+                        <a href="http://hostingbroad.com/" target="_blank"><img src="img/hostinbroad.png" width="400px" height="280px" border="0"><a/>
+                
+                
+                    <p class="titulo_sidebar">Siguenos</p>
+                <br>
+               <iframe src="//www.facebook.com/plugins/likebox.php?href=http%3A%2F%2Fwww.facebook.com%2Flinuxcampeche&amp;width=335&amp;height=590&amp;show_faces=true&amp;colorscheme=light&amp;stream=true&amp;border_color&amp;header=true"
+                       scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:395px; height:590px;" allowTransparency="true"></iframe>
+                <br>
+                <br>
+                
+                
+                <a class="twitter-timeline"  href="https://twitter.com/linuxcampeche"  data-widget-id="328187254344392704">Tweets por @linuxcampeche</a>
+
+
+                
+                </div>
+            </div>-->
+        
+        </div>
+            
+            
+        
+     
+            
+        
+        
+       
+        
+        
+        
+    
+
+    </body>
+    
+       
+    
+    
+    
+</html>
